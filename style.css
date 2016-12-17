@@ -1,61 +1,53 @@
 QToolTip
 {
-    background-color: #cdd8e0;
-    color: #2e3641;
+     border: 1px solid black;
+     background-color: #ffa02f;
      padding: 1px;
      font-size: 11px;
-     border-radius: 5px;
-    border: 1px solid #a8bd44;
+     border-radius: 3px;
 
 }
 
 QWidget
 {
-    background-color: #cdd8e0;
-    color: #2e3641;
-    font-size: 11px;
-    outline: none;
+  background-color: rgb(80,80,80);
+  color: rgb(220,220,220);
+  font-size: 11px;
+  outline: none;
 }
 QLabel
 {
-    background-color: #cdd8e0;
-    color: #2e3641;
+    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ffa02f, stop: 1 #d7801a);
+    color: #000000;
 }
 
 StdTable
 {
-    background-color: #cdd8e0;
-    color: #2e3641;
+    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ffa02f, stop: 1 #d7801a);
+    color: #000000;
 }
 
 QSplitter
 {
-    background-color: #cdd8e0;
-    color: #2e3641;
+    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ffa02f, stop: 1 #d7801a);
+    color: #000000;
 }
 
 QFrame
 {
-    background-color: #cdd8e0;
-    color: #2e3641;
+
+    color: #000000;
 }
 
 QStatusBar
 {
-    background-color: #cdd8e0;
-    color: #2e3641;
+    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ffa02f, stop: 1 #d7801a);
+    color: #000000;
 }
 
 QDialog
 {
-    background-color: #cdd8e0;
-    color: #2e3641;
-}
-
-QAbstractScrollArea
-{
-    background-color: #cdd8e0;
-    color: #2e3641;
+    color: #000000;
 }
 
 QFontComboBox
@@ -122,7 +114,8 @@ QMenuBar::item:pressed
 
 QMenu
 {
-    border: 1px solid #000;
+  background-color: rgb(80,80,80);
+  color: rgb(220,220,220);
 }
 
 QMenu::item
@@ -137,8 +130,8 @@ QMenu::item:selected
 
 QWidget:disabled
 {
-    color: #404040;
-    background-color: #323232;
+  background-color: rgb(80,80,80);
+  color: rgb(220,220,220);
 }
 
 QAbstractItemView
